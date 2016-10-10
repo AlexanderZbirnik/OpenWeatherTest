@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		88840D395F8DE7BC72C8B4E1 /* libPods-OpenWeatherTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C09D58D1CAFF79326C7877 /* libPods-OpenWeatherTest.a */; };
+		C71339881DAC0CC8001281A5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C71339871DAC0CC8001281A5 /* MainViewController.m */; };
 		C79E1ECA1DABCACF002C75B0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C79E1EC91DABCACF002C75B0 /* CoreLocation.framework */; };
 		C7D1736E1DABB93C000FA9D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D1736D1DABB93C000FA9D3 /* main.m */; };
 		C7D173711DABB93C000FA9D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D173701DABB93C000FA9D3 /* AppDelegate.m */; };
-		C7D173741DABB93C000FA9D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D173731DABB93C000FA9D3 /* ViewController.m */; };
 		C7D173771DABB93C000FA9D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7D173751DABB93C000FA9D3 /* Main.storyboard */; };
 		C7D173791DABB93C000FA9D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7D173781DABB93C000FA9D3 /* Assets.xcassets */; };
 		C7D1737C1DABB93C000FA9D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7D1737A1DABB93C000FA9D3 /* LaunchScreen.storyboard */; };
@@ -20,13 +20,13 @@
 /* Begin PBXFileReference section */
 		1F3D2FCEE7988FC01C160653 /* Pods-OpenWeatherTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenWeatherTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenWeatherTest/Pods-OpenWeatherTest.release.xcconfig"; sourceTree = "<group>"; };
 		26C09D58D1CAFF79326C7877 /* libPods-OpenWeatherTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenWeatherTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71339861DAC0CC8001281A5 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Controllers/MainViewController.h; sourceTree = "<group>"; };
+		C71339871DAC0CC8001281A5 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Controllers/MainViewController.m; sourceTree = "<group>"; };
 		C79E1EC91DABCACF002C75B0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		C7D173691DABB93C000FA9D3 /* OpenWeatherTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenWeatherTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D1736D1DABB93C000FA9D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C7D1736F1DABB93C000FA9D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C7D173701DABB93C000FA9D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C7D173721DABB93C000FA9D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C7D173731DABB93C000FA9D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C7D173761DABB93C000FA9D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7D173781DABB93C000FA9D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7D1737B1DABB93C000FA9D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +56,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C71339851DAC0CA7001281A5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C71339861DAC0CC8001281A5 /* MainViewController.h */,
+				C71339871DAC0CC8001281A5 /* MainViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		C7D173601DABB93C000FA9D3 = {
 			isa = PBXGroup;
 			children = (
@@ -79,11 +88,10 @@
 			children = (
 				C7D1736F1DABB93C000FA9D3 /* AppDelegate.h */,
 				C7D173701DABB93C000FA9D3 /* AppDelegate.m */,
-				C7D173721DABB93C000FA9D3 /* ViewController.h */,
-				C7D173731DABB93C000FA9D3 /* ViewController.m */,
+				C71339851DAC0CA7001281A5 /* Controllers */,
 				C7D173751DABB93C000FA9D3 /* Main.storyboard */,
-				C7D173781DABB93C000FA9D3 /* Assets.xcassets */,
 				C7D1737A1DABB93C000FA9D3 /* LaunchScreen.storyboard */,
+				C7D173781DABB93C000FA9D3 /* Assets.xcassets */,
 				C7D1737D1DABB93C000FA9D3 /* Info.plist */,
 				C7D1736C1DABB93C000FA9D3 /* Supporting Files */,
 			);
@@ -235,9 +243,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7D173741DABB93C000FA9D3 /* ViewController.m in Sources */,
 				C7D173711DABB93C000FA9D3 /* AppDelegate.m in Sources */,
 				C7D1736E1DABB93C000FA9D3 /* main.m in Sources */,
+				C71339881DAC0CC8001281A5 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +289,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -329,6 +338,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -364,6 +374,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = none.OpenWeatherTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -378,6 +389,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = none.OpenWeatherTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
