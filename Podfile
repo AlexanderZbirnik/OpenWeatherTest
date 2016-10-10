@@ -3,6 +3,9 @@
 
 target 'OpenWeatherTest' do
 
+pod "GoogleMaps"
+pod "AFNetworking", "~> 3.0"
+
 end
 
 
