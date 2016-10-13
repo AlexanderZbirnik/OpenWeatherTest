@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		88840D395F8DE7BC72C8B4E1 /* libPods-OpenWeatherTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C09D58D1CAFF79326C7877 /* libPods-OpenWeatherTest.a */; };
-		C71339881DAC0CC8001281A5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C71339871DAC0CC8001281A5 /* MainViewController.m */; };
+		C798473E1DADAFA10061C227 /* DarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = C798473D1DADAFA10061C227 /* DarkView.m */; };
+		C79847411DADCA1F0061C227 /* CitiesContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C79847401DADCA1F0061C227 /* CitiesContainerView.m */; };
+		C79847441DADD3EE0061C227 /* SearchCitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C79847431DADD3EE0061C227 /* SearchCitiesViewController.m */; };
+		C79847471DADDAD00061C227 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = C79847461DADDAD00061C227 /* City.m */; };
+		C798474A1DADDB270061C227 /* City+Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = C79847491DADDB270061C227 /* City+Parser.m */; };
 		C79E1ECA1DABCACF002C75B0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C79E1EC91DABCACF002C75B0 /* CoreLocation.framework */; };
 		C7D1736E1DABB93C000FA9D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D1736D1DABB93C000FA9D3 /* main.m */; };
 		C7D173711DABB93C000FA9D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D173701DABB93C000FA9D3 /* AppDelegate.m */; };
 		C7D173771DABB93C000FA9D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7D173751DABB93C000FA9D3 /* Main.storyboard */; };
 		C7D173791DABB93C000FA9D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7D173781DABB93C000FA9D3 /* Assets.xcassets */; };
 		C7D1737C1DABB93C000FA9D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7D1737A1DABB93C000FA9D3 /* LaunchScreen.storyboard */; };
+		C7E4E7B91DAE723400C26CA8 /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4E7B81DAE723400C26CA8 /* WeatherViewController.m */; };
+		C7E4E7BC1DAE8CFA00C26CA8 /* CitySearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4E7BB1DAE8CFA00C26CA8 /* CitySearchBar.m */; };
+		C7E8F7381DAC1EE300B5D19E /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E8F7371DAC1EE300B5D19E /* LocationManager.m */; };
+		C7F6B0311DACF29C000E0168 /* LocationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F6B0301DACF29C000E0168 /* LocationButton.m */; };
+		C7F6B0371DAD209E000E0168 /* WeatherManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F6B0361DAD209E000E0168 /* WeatherManager.m */; };
+		C7F6B03B1DAD3CF5000E0168 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F6B03A1DAD3CF5000E0168 /* Weather.m */; };
+		C7F6B03E1DAD3E4D000E0168 /* Weather+Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F6B03D1DAD3E4D000E0168 /* Weather+Parser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F3D2FCEE7988FC01C160653 /* Pods-OpenWeatherTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenWeatherTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenWeatherTest/Pods-OpenWeatherTest.release.xcconfig"; sourceTree = "<group>"; };
 		26C09D58D1CAFF79326C7877 /* libPods-OpenWeatherTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenWeatherTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C71339861DAC0CC8001281A5 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Controllers/MainViewController.h; sourceTree = "<group>"; };
-		C71339871DAC0CC8001281A5 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Controllers/MainViewController.m; sourceTree = "<group>"; };
+		C7090CBD1DAF81C4001B6BAC /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Macros.h; path = Utils/Macros.h; sourceTree = "<group>"; };
+		C798473C1DADAFA10061C227 /* DarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DarkView.h; path = Views/DarkView.h; sourceTree = "<group>"; };
+		C798473D1DADAFA10061C227 /* DarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DarkView.m; path = Views/DarkView.m; sourceTree = "<group>"; };
+		C798473F1DADCA1F0061C227 /* CitiesContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CitiesContainerView.h; path = Views/CitiesContainerView.h; sourceTree = "<group>"; };
+		C79847401DADCA1F0061C227 /* CitiesContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CitiesContainerView.m; path = Views/CitiesContainerView.m; sourceTree = "<group>"; };
+		C79847421DADD3EE0061C227 /* SearchCitiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchCitiesViewController.h; path = Controllers/SearchCitiesViewController.h; sourceTree = "<group>"; };
+		C79847431DADD3EE0061C227 /* SearchCitiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchCitiesViewController.m; path = Controllers/SearchCitiesViewController.m; sourceTree = "<group>"; };
+		C79847451DADDAD00061C227 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = City.h; path = Models/City.h; sourceTree = "<group>"; };
+		C79847461DADDAD00061C227 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = City.m; path = Models/City.m; sourceTree = "<group>"; };
+		C79847481DADDB270061C227 /* City+Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "City+Parser.h"; sourceTree = "<group>"; };
+		C79847491DADDB270061C227 /* City+Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "City+Parser.m"; sourceTree = "<group>"; };
 		C79E1EC91DABCACF002C75B0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		C7D173691DABB93C000FA9D3 /* OpenWeatherTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenWeatherTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D1736D1DABB93C000FA9D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -31,6 +51,20 @@
 		C7D173781DABB93C000FA9D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7D1737B1DABB93C000FA9D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7D1737D1DABB93C000FA9D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7E4E7B71DAE723400C26CA8 /* WeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeatherViewController.h; path = Controllers/WeatherViewController.h; sourceTree = "<group>"; };
+		C7E4E7B81DAE723400C26CA8 /* WeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeatherViewController.m; path = Controllers/WeatherViewController.m; sourceTree = "<group>"; };
+		C7E4E7BA1DAE8CFA00C26CA8 /* CitySearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CitySearchBar.h; path = Views/CitySearchBar.h; sourceTree = "<group>"; };
+		C7E4E7BB1DAE8CFA00C26CA8 /* CitySearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CitySearchBar.m; path = Views/CitySearchBar.m; sourceTree = "<group>"; };
+		C7E8F7361DAC1EE300B5D19E /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationManager.h; path = Utils/LocationManager.h; sourceTree = "<group>"; };
+		C7E8F7371DAC1EE300B5D19E /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationManager.m; path = Utils/LocationManager.m; sourceTree = "<group>"; };
+		C7F6B02F1DACF29C000E0168 /* LocationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationButton.h; path = Views/Buttons/LocationButton.h; sourceTree = "<group>"; };
+		C7F6B0301DACF29C000E0168 /* LocationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationButton.m; path = Views/Buttons/LocationButton.m; sourceTree = "<group>"; };
+		C7F6B0351DAD209E000E0168 /* WeatherManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeatherManager.h; path = Utils/WeatherManager.h; sourceTree = "<group>"; };
+		C7F6B0361DAD209E000E0168 /* WeatherManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeatherManager.m; path = Utils/WeatherManager.m; sourceTree = "<group>"; };
+		C7F6B0391DAD3CF5000E0168 /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Weather.h; path = Models/Weather.h; sourceTree = "<group>"; };
+		C7F6B03A1DAD3CF5000E0168 /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Weather.m; path = Models/Weather.m; sourceTree = "<group>"; };
+		C7F6B03C1DAD3E4D000E0168 /* Weather+Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Weather+Parser.h"; path = "Models/Weather+Parser.h"; sourceTree = "<group>"; };
+		C7F6B03D1DAD3E4D000E0168 /* Weather+Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Weather+Parser.m"; path = "Models/Weather+Parser.m"; sourceTree = "<group>"; };
 		E651F85D7349323C47C1C3CC /* Pods-OpenWeatherTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenWeatherTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenWeatherTest/Pods-OpenWeatherTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,8 +93,10 @@
 		C71339851DAC0CA7001281A5 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C71339861DAC0CC8001281A5 /* MainViewController.h */,
-				C71339871DAC0CC8001281A5 /* MainViewController.m */,
+				C7E4E7B71DAE723400C26CA8 /* WeatherViewController.h */,
+				C7E4E7B81DAE723400C26CA8 /* WeatherViewController.m */,
+				C79847421DADD3EE0061C227 /* SearchCitiesViewController.h */,
+				C79847431DADD3EE0061C227 /* SearchCitiesViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -88,7 +124,10 @@
 			children = (
 				C7D1736F1DABB93C000FA9D3 /* AppDelegate.h */,
 				C7D173701DABB93C000FA9D3 /* AppDelegate.m */,
+				C7F6B0381DAD2F8B000E0168 /* Models */,
 				C71339851DAC0CA7001281A5 /* Controllers */,
+				C7F6B02D1DACF1D4000E0168 /* Views */,
+				C7E8F7351DAC1EC500B5D19E /* Utils */,
 				C7D173751DABB93C000FA9D3 /* Main.storyboard */,
 				C7D1737A1DABB93C000FA9D3 /* LaunchScreen.storyboard */,
 				C7D173781DABB93C000FA9D3 /* Assets.xcassets */,
@@ -104,6 +143,56 @@
 				C7D1736D1DABB93C000FA9D3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7E8F7351DAC1EC500B5D19E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C7090CBD1DAF81C4001B6BAC /* Macros.h */,
+				C7F6B0351DAD209E000E0168 /* WeatherManager.h */,
+				C7F6B0361DAD209E000E0168 /* WeatherManager.m */,
+				C7E8F7361DAC1EE300B5D19E /* LocationManager.h */,
+				C7E8F7371DAC1EE300B5D19E /* LocationManager.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		C7F6B02D1DACF1D4000E0168 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C798473C1DADAFA10061C227 /* DarkView.h */,
+				C798473D1DADAFA10061C227 /* DarkView.m */,
+				C7E4E7BA1DAE8CFA00C26CA8 /* CitySearchBar.h */,
+				C7E4E7BB1DAE8CFA00C26CA8 /* CitySearchBar.m */,
+				C798473F1DADCA1F0061C227 /* CitiesContainerView.h */,
+				C79847401DADCA1F0061C227 /* CitiesContainerView.m */,
+				C7F6B02E1DACF229000E0168 /* Buttons */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C7F6B02E1DACF229000E0168 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				C7F6B02F1DACF29C000E0168 /* LocationButton.h */,
+				C7F6B0301DACF29C000E0168 /* LocationButton.m */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		C7F6B0381DAD2F8B000E0168 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C7F6B0391DAD3CF5000E0168 /* Weather.h */,
+				C7F6B03A1DAD3CF5000E0168 /* Weather.m */,
+				C7F6B03C1DAD3E4D000E0168 /* Weather+Parser.h */,
+				C7F6B03D1DAD3E4D000E0168 /* Weather+Parser.m */,
+				C79847451DADDAD00061C227 /* City.h */,
+				C79847461DADDAD00061C227 /* City.m */,
+				C79847481DADDB270061C227 /* City+Parser.h */,
+				C79847491DADDB270061C227 /* City+Parser.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		C911B0CF9A0238D13AB95414 /* Frameworks */ = {
@@ -243,9 +332,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7E4E7BC1DAE8CFA00C26CA8 /* CitySearchBar.m in Sources */,
+				C79847411DADCA1F0061C227 /* CitiesContainerView.m in Sources */,
+				C7F6B0311DACF29C000E0168 /* LocationButton.m in Sources */,
+				C79847471DADDAD00061C227 /* City.m in Sources */,
+				C7E8F7381DAC1EE300B5D19E /* LocationManager.m in Sources */,
+				C7F6B03B1DAD3CF5000E0168 /* Weather.m in Sources */,
+				C798474A1DADDB270061C227 /* City+Parser.m in Sources */,
+				C7F6B03E1DAD3E4D000E0168 /* Weather+Parser.m in Sources */,
+				C7F6B0371DAD209E000E0168 /* WeatherManager.m in Sources */,
 				C7D173711DABB93C000FA9D3 /* AppDelegate.m in Sources */,
+				C79847441DADD3EE0061C227 /* SearchCitiesViewController.m in Sources */,
+				C7E4E7B91DAE723400C26CA8 /* WeatherViewController.m in Sources */,
+				C798473E1DADAFA10061C227 /* DarkView.m in Sources */,
 				C7D1736E1DABB93C000FA9D3 /* main.m in Sources */,
-				C71339881DAC0CC8001281A5 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +412,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -355,7 +455,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -370,7 +470,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LRU632Y282;
 				INFOPLIST_FILE = OpenWeatherTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = none.OpenWeatherTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -385,7 +485,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LRU632Y282;
 				INFOPLIST_FILE = OpenWeatherTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = none.OpenWeatherTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";

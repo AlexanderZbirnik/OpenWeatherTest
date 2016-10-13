@@ -8,11 +8,13 @@
 
 #import "AppDelegate.h"
 #import <GoogleMaps/GoogleMaps.h>
+#import <GooglePlaces/GooglePlaces.h>
 
 @interface AppDelegate ()
 
-//GoogleMaps -
+//GoogleMaps - AIzaSyAacvSDyyyYyy7MJgzLhs7tLognv6pJTaI
 //OpenWheather - 0677c870d0884aa320f05c963bdb5a70
+//AIzaSyDI6d3cFm1P4x0v3rvpHD2ARo4xJ9s6X50
 
 @end
 
@@ -21,7 +23,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    [GMSServices provideAPIKey:@"AIzaSyAHpHMO2KNw-ppYr9UPzD1D_HLFvaE_NvQ"];
+    [GMSServices provideAPIKey:@"AIzaSyAacvSDyyyYyy7MJgzLhs7tLognv6pJTaI"];
+    [GMSPlacesClient provideAPIKey:@"AIzaSyDI6d3cFm1P4x0v3rvpHD2ARo4xJ9s6X50"];
     
     return YES;
 }
